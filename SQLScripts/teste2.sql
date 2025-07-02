@@ -1,0 +1,5 @@
+USE DB_SDE20_ARIEL_RANDIS;
+
+SELECT * FROM PRODUTOS;
+SELECT * FROM FORNECEDORES;
+SELECT nome_fornecedor, email_fornecedor FROM FORNECEDORES WHERE email_fornecedor LIKE '%.br%';
