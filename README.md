@@ -22,12 +22,9 @@ O curso de **Aplicação em Banco de Dados** visa capacitar os alunos nas seguin
 Os scripts e arquivos serão organizados da seguinte forma:
 
 * **`SQLScripts/`**: Contém todos os arquivos `.sql` desenvolvidos ao longo das aulas, organizados por módulos ou tópicos conforme o progresso do curso.
-    * `DDL/`: Scripts para criação de tabelas, índices, views, etc.
-    * `DML/`: Scripts para inserção, atualização e exclusão de dados.
-    * `Queries/`: Consultas SQL para extração e análise de dados.
-    * `Procedures_Functions/`: (Se aplicável) Stored Procedures, Functions, Triggers, etc.
-* **`Diagrams/`**: (Opcional) Diagramas de Entidade-Relacionamento (ERD) e outros modelos de dados.
-* **`Documentation/`**: (Opcional) Anotações, resumos ou explicações adicionais sobre os tópulos abordados.
+    * `DDL/`: Scripts para criação de tabelas, índices, views, etc. (Data Definition Language).
+    * `DCL/`: Scripts para controle de acesso e permissões. (Data Control Language).
+    * `DML/`: Scripts para inserção, atualização e exclusão de dados. (Data Manipulation Language).
 
 ---
 
@@ -42,6 +39,7 @@ Este repositório será atualizado continuamente à medida que o curso avança, 
 Se você tiver alguma dúvida, sugestão ou quiser discutir sobre o conteúdo, sinta-se à vontade para entrar em contato:
 
 * **Ariel Randis**
+* LinkedIn: [Ariel Randis](https://www.linkedin.com/in/arielrandis/)
 * GitHub: [devari-el](https://github.com/devari-el)
 
 ---
