@@ -14,7 +14,9 @@ values
     ('Fone','41.77'),
     ('Relógio Patek Phillip','800250.00'),
     ('Nike TN Air Max Plus','1499.99');
-    
+ 
+ select nome from produtos_padaria where id = 5;
+ 
 select * from produtos_padaria;
     
 select upper(nome) from produtos_padaria; -- upper(): Maiúsculas
@@ -43,3 +45,11 @@ select nome as Palavra,
 length(nome) as QuantosCaracteresTem
 from produtos_padaria
 order by length(nome) asc;
+
+select substring(nome, 1, 7) as Primeira, -- Pega nome(coluna), a partir do 1o caracter até a 7a pos
+substring(nome, 9, 5) as Segunda,
+substring(nome, 15, 7) as Terceira,
+curdate() as DataDeAgora,
+curtime() as HoraDeAgora,
+now() as DataEHoraDeAgora
+from produtos_padaria where id = 5;
