@@ -123,35 +123,33 @@ from pedidos;
 select sum(valor_total) as total_faturamento
 from pedidos;	
 
-/*
-🔹 Pedidos
-Qual o valor total de pedidos por mês?
-Qual a média de valor dos pedidos por cliente?
-Quais métodos de pagamento são mais usados?
-Quantos pedidos estão em cada status (pendente, entregue, cancelado etc)?
-Quantos pedidos foram feitos por dia/semana/mês?
+-- 🔹 Pedidos
+-- Qual o valor total de pedidos por mês?
+-- Qual a média de valor dos pedidos por cliente?
+-- Quais métodos de pagamento são mais usados?
+-- Quantos pedidos estão em cada status (pendente, entregue, cancelado etc)?
+-- Quantos pedidos foram feitos por dia/semana/mês?
 
-🔹 Produtos
-Quais são os produtos mais vendidos (quantidade total)?
-Quais são os produtos que mais geram receita (subtotal)?
-Quais produtos estão com estoque baixo (ex: menor que 10 unidades)?
-Quais categorias de produtos vendem mais?
-Qual o ticket médio por produto (preço médio de venda)?
+-- 🔹 Produtos
+-- Quais são os produtos mais vendidos (quantidade total)?
+-- Quais são os produtos que mais geram receita (subtotal)?
+-- Quais produtos estão com estoque baixo (ex: menor que 10 unidades)?
+-- Quais categorias de produtos vendem mais?
+-- Qual o ticket médio por produto (preço médio de venda)?
 
-🔹 Detalhes do Pedido
-Qual é o preço médio dos itens vendidos por pedido?
-Qual é o item mais vendido em cada pedido?
-Qual é o total de produtos vendidos por dia/mês?
-Quais produtos nunca foram vendidos?
-Quais pedidos têm o maior número de itens diferentes?
+-- 🔹 Detalhes do Pedido
+-- Qual é o preço médio dos itens vendidos por pedido?
+-- Qual é o item mais vendido em cada pedido?
+-- Qual é o total de produtos vendidos por dia/mês?
+-- Quais produtos nunca foram vendidos?
+-- Quais pedidos têm o maior número de itens diferentes?
 
-🔧 Bônus: Perguntas que envolvem múltiplas tabelas
-Quanto cada cliente gastou em cada categoria de produto?
-Quais cidades geram mais receita?
-Quais produtos são populares entre os clientes de São Paulo, por exemplo?
-Qual foi o maior pedido (em valor) e quais produtos estavam nele?
-Qual é a variação do volume de pedidos por tipo de pagamento ao longo dos meses?
- */
+-- 🔧 Bônus: Perguntas que envolvem múltiplas tabelas
+-- Quanto cada cliente gastou em cada categoria de produto?
+-- Quais cidades geram mais receita?
+-- Quais produtos são populares entre os clientes de São Paulo, por exemplo?
+-- Qual foi o maior pedido (em valor) e quais produtos estavam nele?
+-- Qual é a variação do volume de pedidos por tipo de pagamento ao longo dos meses?
 	
 	
 	
